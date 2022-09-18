@@ -4,9 +4,112 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="formulario.css">
+    <title>Formulário</title>
 </head>
 <body>
-    
+    <main class="main">
+        <section class="d-flex">
+                <form class="form-inputs">
+                    <h1>Dados Pessoais</h1>
+                    <div class="input">
+                        <label for="nome">Nome: </label>
+                        <input name="nome" id="nome" type="text" required>
+                    </div>
+                    <div class="input">
+                        <label for="endereco">Endereço: </label>
+                        <input name="endereco" id="endereco" type="text" required>
+                    </div>
+                    <div class="input">
+                        <label for="cidade">Cidade: </label>
+                        <input name="cidade" id="cidade" type="text" required>
+                    </div>
+                    <div class="input">
+                        <label for="estado">Estado: </label>
+                        <select name="estado" id="estado">
+                            <option value="1">São Paulo</option>
+                            <option value="2">Rio de Janeiro</option>
+                            <option value="3">Minas Gerais</option>
+                        </select>
+                    </div>
+                    <div class="input">
+                        <input type="submit">
+                    </div>
+                </form>
+        </section>
+        <section class="d-flex-2">
+            <h1>Natureza do Cargo</h1>
+            <div class="nat-cargo">
+                <ul class="flex-inner">
+                    <li class="caixa">
+                        <input type="checkbox" id="gerencia">
+                        <label for="gerencia">Gerência</label>
+                    </li>
+                    <li class="caixa">
+                        <input type="checkbox" id="financeiro">
+                        <label for="financeiro">Financeiro</label>
+                    </li>
+                    <li class="caixa">
+                        <input type="checkbox" id="recepcao">
+                        <label for="recepcao">Recepção</label>
+                    </li>
+                    <li class="caixa">
+                        <input type="checkbox" id="adm">
+                        <label for="adm">Administrativo</label>
+                    </li>
+                    <li class="caixa">
+                        <input type="checkbox" id="juridico">
+                        <label for="juridico">Jurídico</label>
+                    </li>
+                    <!-- more list items here -->
+                </ul>
+            </div>
+
+            <h1>Área de Interesse</h1>
+            <div class="nat-cargo">
+                <ul class="flex-inner">
+                    <li class="caixa">
+                        <input type="checkbox" id="comp">
+                        <label for="comp">Computação</label>
+                    </li>
+                    <li class="caixa">
+                        <input type="checkbox" id="bio">
+                        <label for="bio">Biologia</label>
+                    </li>
+                    <li class="caixa">
+                        <input type="checkbox" id="meio-amb">
+                        <label for="meio-amb">Meio-Ambiente</label>
+                    </li>
+                    <li class="caixa">
+                        <input type="checkbox" id="eng">
+                        <label for="eng">Engenharia</label>
+                    </li>
+                    <li class="caixa">
+                        <input type="checkbox" id="hist">
+                        <label for="hist">História</label>
+                    </li>
+                    <!-- more list items here -->
+                </ul>
+            </div>
+        </section>
+        <section class="d-flex-3">
+            <div class="placeholder">
+                <li>
+                    <label for="curriculo">Mini-Currículo</label>
+                    <textarea rows="6" id="curriculo" placeholder=""></textarea>
+                </li>
+            </div>
+        </section>
+        <section class="d-flex-4">
+            <div class="botoes">
+                <div class="input">
+                    <input type="submit">
+                </div>
+                <div class="input">
+                    <button type="submit">Limpar</button>
+                </div>             
+            </div>       
+        </section>
+    </main>
 </body>
 </html>

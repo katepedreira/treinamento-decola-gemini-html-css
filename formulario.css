@@ -1,0 +1,60 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 15px 100px 15px;
+    justify-content: space-around;
+
+}
+
+.main .d-flex {
+    display: flex;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.main .d-flex .form-inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.main .d-flex .form-inputs .input {
+    flex-direction: column;
+    
+}
+
+.main .d-flex-2 {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.main .d-flex-2 .nat-cargo .flex-inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.main .placeholder {
+    display: flex;
+    flex-direction: row;
+    margin: 15px 5px;
+    
+}
+
+.main .botoes {
+    display: flex;
+    flex-direction: row;
+    margin: 15px 5px;
+    
+}
